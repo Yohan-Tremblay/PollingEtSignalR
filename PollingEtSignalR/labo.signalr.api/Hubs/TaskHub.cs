@@ -1,6 +1,9 @@
-﻿namespace labo.signalr.api.Hubs
+﻿using Microsoft.AspNetCore.SignalR;
+
+namespace labo.signalr.api.Hubs
 {
-    public class TaskHub
+    public class TaskHub : Hub
     {
+
     }
 }
